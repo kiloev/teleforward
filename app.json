@@ -1,0 +1,11 @@
+{
+  "name": "Teleforward",
+  "description": "Heroku app for forwarding HTTP requests to another server.",
+  "repository": "https://github.com/kiloev/teleforward",
+  "env": {
+    "REDIRECT_TARGET": {
+      "description": "Redirection target hostname with protocol.",
+      "required": true
+    }
+  }
+}
